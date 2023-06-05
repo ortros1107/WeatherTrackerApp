@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Weather Tracker App",
+    "slug": "weather-tracker-app",
+    "description": "An app that shows current weather, upcoming weather and city details of user's current location.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/logo-512.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd30738d-9b77-4a34-bc29-5484deb153be"
+      }
+    }
+  }
+}
